@@ -366,7 +366,6 @@ li {
     background-color: white;
     font-size: 35px;
     text-align: center;
-    /* line-height: 40px; */
 }
 
 .ListBtn_active {
@@ -414,11 +413,8 @@ li {
     justify-content: space-around;
     font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
-    color: white;
-    background-image: url(Background_product_darken.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    color: black;
+    background-color: white;
 }
 
 .ApprovedBY1911Heading {
@@ -433,7 +429,7 @@ li {
 .ApprovedBY1911Text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: calc(100% - 40%);
     padding-left: 1rem;
@@ -444,5 +440,8 @@ li {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
+}
+
+.QUOTECAPTION {
+    font-size: 18px;
 }
