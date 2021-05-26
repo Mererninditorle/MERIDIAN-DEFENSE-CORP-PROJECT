@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    background: #212126;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    position: absolute;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    /* height: auto; */
+    margin-bottom: 10px;
+    height: 30px;
+    border-bottom: 1px solid white;
+}
+
+ul {
+    cursor: default;
+}
+li {
+    margin-bottom: 10px;
+}
+.Heading {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #ffffff;
+}
+.logo {
+    width: 220px;
+    height: 150px;
+}
+.Navbar {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.Navbar_more {
+    display: none;
+}
+
+.Products {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.Products:hover {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    transition-duration: 0.3s;
+}
+
+.SIZE {
+    height: 885px;
+}
+
+.CONTENT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+}
+
+
+
+
+.Num_1 {
+    background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/original/carousel/60/090909dsc_4246__35985.jpg?c=2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Num_2 {
+    background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/original/carousel/128/86_romy_g_no_logoweb__89068.jpg?c=2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Num_3 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5a99da7a697a98dcc6ee8b0a/1598571156996-ZHYU1X3WOBR4ZEKSHA6S/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC00169.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.SlideBox {
+    height: 300px;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    cursor: default;
+    font-size: 40px;
+}
+
+.ApHeader {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 40px;
+}
+
+.ApHeader_active {
+    color: white;
+    background-color: black;
+}
+
+.ApInfo {
+    height: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Apocalypse_copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.Ap1911Header {
+    height: 100px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 40px;
+}
+
+.Ap1911Header_active {
+    color: white;
+    background-color: black;
+}
+
+.Ap1911Info {
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(ApproveBy1911_copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 30px;
+    cursor: default;
+}
+
+.CheckBtn {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.CheckBtn:hover {
+    filter: invert(100%);
+    transition-duration: 0.5s;
+}
+
+.Info_vis {
+    display: none;
+}
+
+
+#syndicate {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+.footer {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.CONTACT_US {
+    color: black;
+}
+
+.CONTACT_US:hover {
+    color: black;
+}
+.Info {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+}
+
+.soc_media {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright {
+    margin-top: 20px;
+    cursor: default;
+}
+
+
+/* APOCALYPSE SERIES "PESTILENCE" RIFLE */
+
+.ItemName {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+
+.DescPrice {
+    width: calc(100% - 1000px);
+}
+.ItemHeading {
+    height: fit-content;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    cursor: default;
+}
+.Description {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.Lightbox {
+    height: fit-content;
+    width: 1000px;
+    background-color: #212126;
+}
+
+.Warning {
+    margin-top: 50px;
+    padding-left: 10px;
+    color: red;
+    cursor: default;
+}
+
+.Buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.Price {
+    height: 25px;
+    width: fit-content;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    cursor: default;
+}
+
+.BuyButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.BuyButton:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.Char {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.CharText {
+    padding-bottom: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    padding-top: 50px;
+    width: 95%;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.ListBtn {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+    /* line-height: 40px; */
+}
+
+.ListBtn_active {
+    color: white;
+    background-color: black;
+}
+
+.Iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LIST {
+    font-size: 25px;
+}
+
+.LIST_VIS {
+    display: none;
+}
+
+
+.POP_UP {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    text-align: left;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.ApprovedBY1911 {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-image: url(Background_product_darken.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ApprovedBY1911Heading {
+    font-size: 40px;
+    cursor: default;
+}
+
+.ApprovedBY1911Desc {
+    display: flex;
+    flex-direction: row;
+}
+.ApprovedBY1911Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40%);
+    padding-left: 1rem;
+}
+
+
+.QUOTE {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
