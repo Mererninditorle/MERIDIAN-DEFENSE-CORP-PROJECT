@@ -152,6 +152,7 @@ li {
     color: white;
     line-height: 40px;
     font-size: 30px;
+    cursor: default;
 }
 
 .Ap1911Header {
@@ -214,7 +215,7 @@ li {
 }
 
 .footer {
-    height: 270px;
+    height: 205px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,6 +426,7 @@ li {
 .ApprovedBY1911Desc {
     display: flex;
     flex-direction: row;
+    cursor:default;
 }
 .ApprovedBY1911Text {
     display: flex;
@@ -432,7 +434,8 @@ li {
     justify-content: space-around;
     align-items: center;
     width: calc(100% - 40%);
-    padding-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 
