@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="MDC_style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- TEST TEST TEST -->
+    <!-- -->
 </head>
 <body>
     <div class="Heading">
@@ -40,7 +43,7 @@
             </div>
             <div class="Buy">
                 <div class="Price">$1.799.00</div>
-                <div class="BuyButton">PRE-ORDER NOW</div>
+                <div class="BuyButton" data-type="popup">PRE-ORDER NOW</div>
             </div>
         </div>
     </div>
@@ -79,7 +82,7 @@
         </div>
         <div class="ApprovedBY1911Desc">
             <div class="ApprovedBY1911Text">
-                <div style="text-align: center; font-size: 35px; line-height: 35px;">WE ALWAYS TRYING TO MAKE OUR RIFLES AS RELIABLE AS POSSIBLE. THATS WHY WE ALWAYS SEND OUR RIFLES TO DIFFERENT LAW ENFORCEMENTS OR BLOGGERS SO THEY CAN FIND PROS AND CONS OF OUR PRODUCTS. HERE IS 1911 SYNDICATE WITH THEIR REVIEW ON OUR "PESTILENCE" MDC-47 TO TELL YOU EVERYTHING ABOUT IT.</div>
+                <div style="text-align: center; font-size: 35px; line-height: 35px;">WE ALWAYS TRYING TO MAKE OUR RIFLES AS RELIABLE AS POSSIBLE. THAT'S WHY WE ALWAYS SEND OUR RIFLES TO DIFFERENT LAW ENFORCEMENTS AND MEDIA INFLUENCERS SO THEY CAN FIND PROS AND CONS OF OUR PRODUCTS. HERE IS 1911 SYNDICATE WITH THEIR REVIEW ON OUR "PESTILENCE" MDC-47 TO TELL YOU EVERYTHING ABOUT IT.</div>
                 <div class="QUOTE">
                     <a href="https://www.facebook.com/jake.dwyer.568/" target="_blank"><img src="http://wfrmls-webdrive.s3.amazonaws.com/8eccf8f0221fe042641bdaa42144fc89.jpg" alt="" style="width: 250px;"></a>
                     <div style="padding-left: 1rem; cursor: default; font-size: 30px;">
@@ -111,6 +114,37 @@
         </div>
         <div class="copyright">© 2021 Meridian Defense Corp</div>
       </div>
+
+      <!-- TEST TEST TEST -->
+    <script>
+        let msgBtn = document.querySelector("[data-type =\"popup\"]");
+        const showPopup = () => {
+            let box = document.createElement("div");
+            box.className = "popup";
+            box.innerHTML = "<h4>ENTER YOUR PERSONAL DATA:<br>(phone or email)</h4><br><form method='GET' class='Sbtn'><input><br><br><input type='submit' value='PRE-ORDER' style='font-size:20px'></form";
+            let close = document.createElement("div");
+            close.className = "closePopup";
+            close.innerText = "+";
+            box.appendChild(close);
+            document.body.appendChild(box);
+            document.body.classList.add("hidden");
+            close.addEventListener("click", (e) => {
+                box.remove();
+                document.body.classList.remove("hidden")
+            })
+        }
+
+        msgBtn.addEventListener("click", (e) => {
+            showPopup();
+        })
+
+        const Sbtn = document.querySelector("#Sbtn");
+        Sbtn.addEventListener("click", (e) => {
+            alert("INFORMATION WAS SEND! THANK YOU");
+        })
+    </script>
+
+
     <script>
         const prd = document.querySelector("#prd");
         const itm = document.querySelector("#itm");
