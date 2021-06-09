@@ -8,23 +8,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <script src="MDC_script.js"></script>
     <link rel="stylesheet" href="MDC_style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- HEAD + LOGO -->
     <div class="Heading">
         <a href="landing.html"><img class="logo" src="MDC_LOGO.png" alt="MDC_logo"></a>
         <div style="cursor: default">MADE IN COMMIEFORNIA, USA</div>
     </div>
     <div class="Navbar NAV">
-        <a href="" class="Products" id="prd">PRODUCTS</a>
+        <a href="kalash/project/index.html" class="Products" id="prd">PRODUCTS</a>
         <div class="item Navbar_more" id="itm">
           <a href="Pestilence.html" class="Products">"PESTILENCE"</a>
         </div>
     </div>
-
+      <!-- CAROUSEL -->
     <div id="Сarousel" class="carousel slide SIZE" data-bs-ride="carousel">
         <div class="carousel-inner SIZE">
           <div class="carousel-item active SIZE Num_1"> <!-- Slide 1 -->
@@ -61,8 +61,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-
       <!-- TABS -->
       <div class="Apocalypse">
         <div class="ApHeader BTN ApHeader_active">
@@ -83,8 +81,6 @@
             </a>
           </div>
       </div>
-
-
       <!-- FOOTER -->
       <div class="footer">
         <div style="font-size: 30px; cursor: default;">WE'RE IN SOCIAL MEDIAS</div>
@@ -100,28 +96,6 @@
         <div class="copyright">© 2021 Meridian Defense Corp</div>
       </div>
       <!-- SCRIPT -->
-      <script>
-        const prd = document.querySelector("#prd");
-        const itm = document.querySelector("#itm");
-        const navbar = document.querySelector(".NAV")
-        prd.addEventListener("mouseenter", (e) => {
-        itm.classList.toggle("Navbar_more");
-        });
-
-        const apocalypse = document.querySelector("#apocalypse");
-        const apocalypse_btn = document.querySelector(".BTN");
-        const syndicate = document.querySelector("#syndicate");
-        const syndicate_btn = document.querySelector(".synBTN");
-        apocalypse_btn.addEventListener("click", (e) => {
-          apocalypse.classList.toggle("Info_vis");
-          apocalypse_btn.classList.toggle("ApHeader_active");
-        })
-        syndicate_btn.addEventListener("click", (e) => {
-          syndicate.classList.toggle("Info_vis");
-          syndicate_btn.classList.toggle("Ap1911Header_active");
-        })
-        // POP UP WINDOW
-        const ContactBtn = document.querySelector("[data-type =\"popup\"]");
-      </script>
+      <script src="LANDING.js"></script>
 </body>
 </html>

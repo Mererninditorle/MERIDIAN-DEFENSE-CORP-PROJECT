@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tshirts {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 250px;
+   margin-left: 0px;
+   margin-right: 700px;
+}
+
+.tshirt {
+   width: 300px;
+   margin: 10px;
+   position: relative;
+}
+
+.tshirt__cover-inner {
+   position: relative;
+    height: 360px; 
+}
+
+.tshirt_cover {
+   max-width: 1000px;
+   height: 500px;
+}
+
+.tshirt__info {
+    padding: 10px 0px;
+    margin: 150px;
+    margin-right: 0px;
+    margin-left: 270px;
+
+}
+
+.tshirt__title {
+   font-size: 90px;
+   color: #000000;
+}
+
+
