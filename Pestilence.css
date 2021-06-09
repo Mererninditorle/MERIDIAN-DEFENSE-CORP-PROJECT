@@ -1,0 +1,11 @@
+.carousel {
+    height: 53vh;
+}
+
+.carousel-inner {
+    height: inherit;
+}
+
+.carousel-item {
+    height: inherit;
+}

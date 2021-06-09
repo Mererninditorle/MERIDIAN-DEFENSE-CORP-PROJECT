@@ -84,9 +84,6 @@ li {
     width: 500px;
 }
 
-
-
-
 .Num_1 {
     background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/original/carousel/60/090909dsc_4246__35985.jpg?c=2);
     background-repeat: no-repeat;
@@ -288,11 +285,25 @@ li {
 }
 .Lightbox {
     height: fit-content;
-    width: 1000px;
+    width: 63vw;
     background-color: #212126;
 }
 
+.PIC_1 {
+    background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/800x800/products/119/388/MDC-apocalypseweb1_ae3a9145-d215-4c19-87f7-45ac5db1af23_2048x__14323.1607380830.jpg?c=2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.PIC_2 {
+    background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/800x800/products/119/389/MDC-apocalypseweb-2_d6efdde8-d637-48f5-9458-a6abd841e9a2_2048x__57675.1607380831.jpg?c=2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .Warning {
+    width: 38vw;
     margin-top: 50px;
     padding-left: 10px;
     color: red;

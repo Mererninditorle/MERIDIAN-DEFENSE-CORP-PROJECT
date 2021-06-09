@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <script src="MDC_script.js"></script>
     <link rel="stylesheet" href="MDC_style.css">
+    <link rel="stylesheet" href="Pestilence.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
 
@@ -30,8 +31,20 @@
         <div class="ItemName">APOCALYPSE SERIES</div>
     <div class="Description">
         <div class="Lightbox">
-            <img src="https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/1280x1280/products/119/388/MDC-apocalypseweb1_ae3a9145-d215-4c19-87f7-45ac5db1af23_2048x__14323.1607380830.jpg?c=2" alt="" style="height: 500px;">
-            <!-- <img src="https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/800x800/products/119/389/MDC-apocalypseweb-2_d6efdde8-d637-48f5-9458-a6abd841e9a2_2048x__57675.1607380831.jpg?c=2" alt="" style="height: 500px;"> -->
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active PIC_1"></div>
+                  <div class="carousel-item PIC_2"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
         <div class="DescPrice">
             <div class="ItemHeading">MDC 47 "PESTILENCE" RIFLE.</div>
