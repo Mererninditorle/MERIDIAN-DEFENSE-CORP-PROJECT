@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 .Screen_1 {
@@ -34,7 +35,7 @@ body {
 
 .Screen_2 {
     height: 100vh;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,16 +48,89 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: violet;
+    justify-content: space-evenly;
 }
 
 .Member {
-    font-size: 30px;
+    height: 4rem;
+    font-size: 70px;
+    line-height: 50px;
     margin-top: 20px;
     text-align: center;
 }
 
 .Why {
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Screen_3 {
+    height: 60vh;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Usage {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.HTML_CSS {
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.HTML_CSS:hover {
+    color: grey;
+    transition-duration: 0.5s;
+}
+.SLIDE {
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.Screen_4 {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn11.bigcommerce.com/s-14i854x3am/images/stencil/original/carousel/127/famine1_1__57843.jpg?c=2);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Pr_button {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+    font-size: 20px;
+}
+
+.Pr_button:hover {
+    height: 130px;
+    width: 330px;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.8);
 }
